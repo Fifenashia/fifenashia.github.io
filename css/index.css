@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #0a3461;
+    margin: 0 0 8px 0;
+}
+
+h1, h2 {
+    color: #0a3461;
+    text-align: center;
+}
+
+.contact {
+    margin: 0 0 12px 0;
+    font-size: 14px;
+}
+        
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}        
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 8px 0;
+}
+
+.nav a {
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: #0a3461;
+}
+
+.nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aboutme, .current-work, .summary, .experience, .education, .skills, .projects {
+  margin: 20px 0;
+}
+        
+section {
+    margin: 20px auto;
+    padding: 8px 16px;
+        }
+
+section h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #0a3461;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+ 
+.item {
+    margin-bottom: 10px;
+        }
+        
+.item h3 {
+    margin: 0 0 4px 0;
+    font-size: 18px;
+    color: #555;
+        }
+       
+.item p {
+    margin: 0 0 8px 0;
+     font-size: 14px;
+        }
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+                
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    gap: 8px;
+}
+        
+.skills li {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+     padding: 5px 10px;
+    margin: 5px 5px 5px 0;
+    border-radius: 4px;
+        }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;   
+  padding: 20px;    
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.summary h2 {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+.summary p {
+  text-align: center;
+  font-style: italic;
+}
+
+.summary, .skills {
+    margin: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 16px 0;
+    font-size: 14px;
+    color: #555;
+}
