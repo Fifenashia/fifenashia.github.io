@@ -124,6 +124,7 @@ ul {
 .summary h2 {
   text-align: center;
   font-size: 1.75em;
+  margin-top: 0;
 }
 
 .summary p {
@@ -135,9 +136,51 @@ ul {
     margin: 40px;
 }
 
+.project h3 a {
+  color: #0a3461;
+  text-decoration: none;
+}
+
+.project h3 a:hover {
+  text-decoration: underline;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
 footer {
     text-align: center;
     padding: 16px 0;
     font-size: 14px;
     color: #555;
+}
+
+@media (min-width: 900px) {
+    .container {
+    padding: 30px;
+}
+    .nav {
+    gap: 20px;
+}
+    .skills ul {
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+    .projects-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+    .project {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+  }
+    .projects-page h2 {
+    grid-column: 1/-1;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
 }
